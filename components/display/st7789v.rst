@@ -46,11 +46,11 @@ to an ESP module.
         dc_pin: GPIO16
         reset_pin: GPIO23
         lambda: |-
-          it.print(0, 0, id(font), "Hello World!");
+          it.print(0, 0, id(roboto), "Hello World!");
 
     font:
       - file: "gfonts://Roboto"
-        id: font
+        id: roboto
         size: 20
 
 .. note::
